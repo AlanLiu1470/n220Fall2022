@@ -1,5 +1,5 @@
-var x = 80;
-var y = 60;
+var x = 500;
+var y = 300;
 
 function setup() {
   createCanvas(1920,1080);
@@ -17,4 +17,12 @@ function draw() {
   fill(153);
   strokeWeight(1);
   rect(100,100,100,200);
+
+  strokeWeight(10);
+  strokeCap(ROUND);
+  line(450,700,x,y);
+
+  fill(200,0,150);
+  strokeWeight(5);
+  ellipse(800,500,300,300);
 }
