@@ -1,9 +1,9 @@
 function setup(){
 console.log("Start");
 let x = 0;
-print(x);
+print(x);//Start with a 0
 }
 
 function draw(){
-print(frameCount);
+print(frameCount);//Print out frame numbers in console
 }
